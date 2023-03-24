@@ -5,7 +5,7 @@ namespace rubenheeren_aspnet_core_react.Data
     public class Post
     {
         [Key]
-        public int PostId { get; set; }
+        public int PostId { get; set; }    
 
         [Required]
         [MaxLength(100)]
@@ -13,7 +13,7 @@ namespace rubenheeren_aspnet_core_react.Data
 
         [Required]
         [MaxLength(100000)]
-        public string Content { get; set; } = String.Empty;
+        public string Content { get; set; } = String.Empty;  // some comments here
 
         public DateTime CreatedTime { get; set; }
     }
